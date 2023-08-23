@@ -19,7 +19,6 @@ def send(msg):
     client.send(send_length)
     client.send(message)
 
-send("hello1")
-send("hello2")
-send("hello3")
-send("hello4")
+send("Hii")
+send("Hello")
+send("How r u")

@@ -5,7 +5,7 @@ Head=64
 port = 5000
 disconnect = "!DISCONNECT"
 format = "utf-8"
-SERVER =socket.gethostbyname(socket.gethostname())
+SERVER =socket.gethostbyname(socket.gethostname()) #your local ip address
 ADDR=(SERVER,port)
 
 client =socket.socket(socket.AF_INET,socket.SOCK_STREAM)

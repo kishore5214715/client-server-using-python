@@ -5,7 +5,7 @@ import time
 Head=64
 port = 5000
 disconnect = "!DISCONNECT"
-SERVER = socket.gethostbyname(socket.gethostname()) #TO get the host ip address
+SERVER = socket.gethostbyname(socket.gethostname()) #TO get the localhost ip address
 format = "utf-8"
 
 acces = (SERVER,port)
